@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/style3.css">
+</head>
+<body>
+    <div class="page">
+    <main>
+        <div class="all">
+            <div class="lewo">
+        <div class="etap1">
+            <p>srcset — задає список зображень різних розмірів або роздільностей для вибору браузером залежно від пристрою.</p>
+            <p>sizes — описує, скільки місця (в ширину) займатиме зображення в різних умовах для правильного вибору з srcset.</p>
+            <p>Атрибути hspace та vspace визначають горизонтальний та вертикальний простір навколо зображення відповідно.</p>
+        </div>
+        <div class="etap2">
+            <h2 id="section-1">Section 1</h2>
+            <a href="#section-1">Go to Section 1</a>
+        </div>
+        <div class="etap3">
+            <a href="https://www.example.com" target="_blank">Visit Example Website</a> <p>- _blank відкриває посилання в новому вікні</p>
+        </div>
+        <div class="etap4">
+            <a href="https://www.example.com" target="_self">Visit Example Website</a> <p>- _self відкриває посилання в цьому самому вікні</p>
+        </div>
+        <div class="etap5">
+            <a href="mailto:info@example.com">Email Us</a> <p>- Посилання на електронну пошту</p>
+        </div>
+        <div class="etap6">
+            <a href="tel:123-456-7890">Call us at 123-456-7890</a> <p>- Посилання на номер телефону</p>
+        </div>
+        <div class="etap7">
+            <video src="myvideo.mp4" controls autoplay>
+                Your browser does not support the video tag.
+             </video>
+             <div class="et71">
+             <p>- Вбудовує відео з вбудованими елементами керування медіа та автоматичним відтворенням під час завантаження сторінки.</p>
+             <pre>
+                poster для превю, 
+                media w source визначає максимальну ширину відео,
+                src для вказівки URL-адреси медіафайлу,
+                controls для відображення вбудованих елементів керування медіа,
+                width та height для визначення розмірів гравця,
+                autoplay для автоматичного відтворення медіафайлів під час завантаження сторінки,
+                loop для циклічного відтворення, та
+                preload для буферизації медіафайлу.
+             </pre>
+            </div>
+        </div>
+        <div class="etap8">
+            <audio controls>
+                <source src="myaudiofile.mp3" type="audio/mp3">
+                <source src="myaudiofile.ogg" type="audio/ogg">
+                <p>Your browser does not support the audio tag.</p>
+             </audio>
+             <p>Щоб забезпечити кросбраузерну сумісність, рекомендується надавати кілька форматів одного медіафайлу source</p>
+        </div>
+    </div>
+    <div class="prawo">
+
+        <div class="etap9">
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="useremail" required>
+            <span>Обовязкове введення поля required</span>
+        </div>
+        <div class="etap10">
+            <div class="et101">
+            <fieldset>
+                <legend>Shipping Address</legend>
+                <label for="address">Address:</label>
+                <input type="text" id="address" name="address">
+                <br>
+                <label for="city">City:</label>
+                <input type="text" id="city" name="city">
+                <br>
+                <label for="zip-code">ZIP Code:</label>
+                <input type="text" id="zip-code" name="zip-code">
+              </fieldset>
+            </div>
+            <div class="et102">
+                <p>- fieldset контейнер, legend опис контейнера</p>
+            </div>
+            <div class="etap11">
+                <div class="et111">
+                <label for="username">Username:</label>
+<input type="text" id="username" name="username" value="JohnDoe" disabled>
+</div>
+<div class="et112">
+    <p>- Вимкнути поле введення disabled, зробити поле доступним тільки для читання readonly</p>
+</div>
+            </div>
+        </div>
+        <div class="etap12">
+            <input type="text" name="username" maxlength="20"> <span>- maxlength максимальна довжина в полі введення</span>
+        </div>
+        <div class="etap13">
+            <input type="number" name="age" min="18" max="100"> <span>- min, max мінімальне і максимальне значення яке можна ввести</span>
+        </div>
+        <div class="etap14">
+            <input type="text" name="address" autocomplete="off"> <span>- autocomplete, автозаповнення раніше введеними даними</span>
+        </div>
+        <div class="etap15">
+            <input type="text" name="phone" pattern="[0-9]{3}-[0-9]{3}-[0-9]{4}"> <span>[0-9] довільне число від 0 до 9 {3} 3 числа</span>
+        </div>
+    </div>
+    </div>
+    </main>
+    <footer>
+        <div class="button">
+        <a class="btn" href="index.html">На головну</a>
+        </div>
+    </footer>
+</div>
+</body>
+</html>
